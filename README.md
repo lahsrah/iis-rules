@@ -2,7 +2,7 @@
 
 Common IIS Rules
 
-Url Rewrite rule: remove WWW from all urls.
+Url Rewrite rule: remove WWW from all urls of a website without hard coding the domain in the rule - uses Regex.
 
 ```
  <rewrite>       
