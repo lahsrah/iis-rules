@@ -14,7 +14,7 @@ Url Rewrite rule: remove WWW from all urls.
              </conditions>
              <action type="Redirect" url="https://{C:2}/{R:1}" redirectType="Permanent" appendQueryString="true" />
             </rule>
-		 </rules>
+	</rules>
    </rewrite>
  ```
         
